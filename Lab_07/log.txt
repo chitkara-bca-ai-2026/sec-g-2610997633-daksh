@@ -1,0 +1,8 @@
+Lab Reflection:
+1. Approach:
+Used nested if-else to handle the century vs non-century logic for leap years.
+2. Errors Faced:
+- Error: Failed on year 1900.
+  Fix: Added the century check to correctly identify 1900 as a common year.
+3. Output:
+Leap years checked successfully!

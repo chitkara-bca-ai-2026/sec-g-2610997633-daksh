@@ -1,0 +1,8 @@
+Lab Reflection:
+1. Approach:
+Used string formatting to align the columns nicely for the type casting summary.
+2. Errors Faced:
+- Error: Columns were unaligned.
+  Fix: Used left-alignment in f-strings like :<15 to make it look like a table.
+3. Output:
+Output looks identical to the screenshot.

@@ -1,0 +1,7 @@
+Lab Reflection:
+1. Approach:
+Just taking inputs and using type() to print their types. Used a simple equality check for the boolean.
+2. Errors Faced:
+Ran on first attempt without errors!
+3. Output:
+Printed the types and details formatted nicely.

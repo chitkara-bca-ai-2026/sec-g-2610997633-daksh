@@ -1,0 +1,8 @@
+Lab Reflection:
+1. Approach:
+Took inputs one by one and calculated the total fee. Multiplied by 2 for the annual fee.
+2. Errors Faced:
+- Error: Got a TypeError when calculating total.
+  Fix: Realized input() gives a string, so I had to wrap them in float().
+3. Output:
+Calculated monthly fee correctly to two decimals using .2f formatting.

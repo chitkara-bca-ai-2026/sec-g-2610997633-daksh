@@ -1,8 +1,0 @@
-Lab Reflection:
-1. Approach:
-Loop to take 5 subjects. Kept a boolean flag `failed` if any subject < 40.
-2. Errors Faced:
-- Error: Got weird grades when failing one subject but having > 80% total.
-  Fix: Overrode the grade check if `failed` is true, making it an automatic F.
-3. Output:
-Report card looks beautiful!

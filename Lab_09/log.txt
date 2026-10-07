@@ -1,8 +1,0 @@
-Lab Reflection:
-1. Approach:
-Used nested loops for number triangle and simple string multiplication for star patterns.
-2. Errors Faced:
-- Error: Numbers printing on separate lines.
-  Fix: Used `end=" "` in the print statement to keep them on the same line.
-3. Output:
-Patterns matched exactly!

@@ -1,8 +1,0 @@
-Lab Reflection:
-1. Approach:
-Iterated through each character in the string and incremented counters based on if-else checks.
-2. Errors Faced:
-- Error: Division by zero when calculating vowel percentage for an empty string.
-  Fix: Added a quick ternary check to ensure total_letters > 0.
-3. Output:
-Counts exactly match the expected output.

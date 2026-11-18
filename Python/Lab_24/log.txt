@@ -1,0 +1,11 @@
+Lab 24 - Student Result Analysis System
+
+Approach:
+Used Python's built-in csv.DictReader to process structured tabular data from students_data.csv. Built modular functions to display full student rosters and filter records scoring above a designated threshold (> 50).
+
+Validation and verification:
+Verified tabular formatting, correct numerical comparison after typecasting CSV string marks to integers, filtering threshold accuracy (> 50 vs <= 50), and proper counting of qualified records.
+All checks passed without runtime errors.
+
+Storage:
+students_data.csv persists student academic data with columns RollNo, Name, Subject, Marks.

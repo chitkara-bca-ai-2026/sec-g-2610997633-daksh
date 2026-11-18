@@ -1,0 +1,11 @@
+Lab 23 - Student Marks File Handling Tool
+
+Approach:
+Used comma-delimited record storage to persist student marks in student_marks.txt. Implemented file reading to parse tabular data and aggregate class statistics (count, sum, mean with 2 decimal precision). Validated mark inputs (0-100).
+
+Validation and verification:
+Tested parsing existing student records, adding new records in append mode, verifying class average recalculation, and validating boundary marks (0, 100) and rejecting out-of-range inputs.
+All checks passed without runtime errors.
+
+Storage:
+student_marks.txt stores records persistently across sessions without overwriting past entries.

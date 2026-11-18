@@ -1,0 +1,11 @@
+Lab 21 - Document Statistics Tool
+
+Approach:
+Created a menu-driven text analytics utility using Python file reading. Calculated document statistics including line count, word count using split(), and total character counts. Implemented line-numbered output formatting.
+
+Validation and verification:
+Tested statistics calculation against sample multiline files and empty files. Verified line numbering and word segmentation accuracy.
+All checks passed without runtime errors.
+
+Storage:
+document.txt is managed in the current working directory. The program initializes standard sample text when the file is absent.

@@ -23,35 +23,29 @@ git clone https://github.com/chitkara-bca-ai-2026/sec-g-2610997633-daksh.git
 
 This repository is your central coursework portfolio across lab courses. Keep your work organized inside their respective subject folders:
 
-* **`Python/`** — Python Programming lab assignments and solutions.
-* **`CST/`** — Client Side Technology (HTML, CSS, JS) lab exercises.
+* **`Python/`** — Python Programming lab assignments (Labs 01 to 24) and Past Test Practice Questions.
+* **`CST/`** — Client Side Technology (HTML, CSS, JS) lab exercises (Labs 01 to 13).
 
 ```text
 sec-g-2610997633-daksh/
 ├── README.md
 │
 ├── Python/                                  <--- [Python Programming]
-│   ├── Lab_01/
-│   │   └── solution.py                      (No log needed for past labs)
+│   ├── README.md                            (Complete Python coursework index)
+│   ├── Lab_01/ to Lab_12/                   (Past foundation labs)
+│   ├── Lab_13/                              (Inventory Control System)
 │   ├── ...
-│   ├── Lab_13/
-│   │   ├── solution.py                      (Python program)
-│   │   └── log.txt                          (Error & reflection log - Python only)
-│   └── Lab_14/
-│       ├── solution.py
-│       └── log.txt
+│   ├── Lab_20/                              (Daily Log Book)
+│   ├── Lab_21/                              (Document Statistics Tool)
+│   ├── Lab_22/                              (Keyword Search Utility)
+│   ├── Lab_23/                              (Student Marks File Handling Tool)
+│   ├── Lab_24/                              (Student Result Analysis System - CSV)
+│   └── Past_Test_Practice_Questions/        (10 Testpad practice questions & self-tests)
 │
 └── CST/                                     <--- [Client Side Technologies]
-    ├── Lab_01/
-    │   ├── html/
-    │   │   └── index.html                   (HTML files inside html/)
-    │   └── images/
-    │       └── banner.png                   (Images inside images/)
-    └── Lab_02/
-        ├── html/
-        │   └── index.html
-        └── images/
-            └── logo.png
+    ├── README.md
+    ├── TASKS OF CST.pdf
+    ├── Lab_01/ to Lab_13/                   (HTML, forms, tables & media labs)
 ```
 
 ---
@@ -93,7 +87,7 @@ Whenever you add or update your code:
 git add .
 
 # 2. Commit your work
-git commit -m "Add Python Lab 13 solution and log"
+git commit -m "Add Python Lab 21-24 solutions, reflection logs, and practice tests"
 
 # 3. Push to your repository
 git push origin main

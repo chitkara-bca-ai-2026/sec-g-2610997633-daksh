@@ -1,0 +1,11 @@
+Lab 22 - Keyword Search Utility
+
+Approach:
+Implemented a text search utility to locate keywords inside document lines. Tracked 1-based line indices, count of matches per line, and total occurrences across the document.
+
+Validation and verification:
+Tested keyword matching with words appearing multiple times, single occurrences, and absent words. Verified case handling and line numbering.
+All checks passed without runtime errors.
+
+Storage:
+report.txt is read in the working directory. A default enterprise technology report is generated if the file is absent.
